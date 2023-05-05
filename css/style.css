@@ -224,8 +224,36 @@ main section p{
 
 /*  Entrega de Diplomas*/
 
+.diplomas{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.divImgDiplomas , .divTextDiplomas{ 
+    height: 50%;
+    padding: 5px;
+}
+
+.divImgDiplomas img{
+    width: 95%;
+    height: 95%;
+}
+
+.divTextDiplomas h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.divTextDiplomas p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
 
 
 
