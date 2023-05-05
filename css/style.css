@@ -128,6 +128,56 @@ main section p{
 
 
 
+/*  Modalidad y Requisitos  */
+
+.modalidadRequisitos{
+    height: 200vh;
+    background-color: rgb(17, 17, 26);
+    text-align: center;
+}
+
+.modalidadRequisitos div{
+    width: 80vw;
+    height: 90vh;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+.modalidadRequisitos h2{
+    font-weight: bold;
+    font-size:300;
+    color: orange;
+}
+
+.modalidadRequisitos img{
+    width: 90%;
+}
+
+.modalidadRequisitos ul{
+    margin: 0;
+    padding: 2px;;
+    text-align: left;
+    list-style-type: none;
+}
+
+.modalidadRequisitos li{
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer */
