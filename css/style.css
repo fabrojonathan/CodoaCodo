@@ -167,9 +167,50 @@ main section p{
 
 
 
+/*  Inscripciones   */
 
 
+.inscripciones{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
 
+.inscripciones h3{
+    margin-top: 100px;
+    font-weight: bold;
+    font-size:500;
+}
+
+.inscripciones p{
+    text-align: center;
+}
+
+.inscripciones div{
+    height: 45vh;
+    padding: 10px;
+}
+
+.divFormulario{
+    background-color: orange;
+}
+
+.divFormulario input{
+    margin: 10px;
+    width: 80vw;
+    height: 25px;
+}
+
+.divFormulario button{
+    display: block;
+    margin: 20px auto;
+    margin-top: 10px;
+    width: 82vw;
+    height: 30px;
+}
 
 
 
