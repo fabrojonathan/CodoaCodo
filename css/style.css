@@ -196,6 +196,8 @@ main section p{
 
 .divFormulario{
     background-color: orange;
+    display: flex;
+    justify-content: space-around;
 }
 
 .divFormulario input{
@@ -210,9 +212,30 @@ main section p{
     margin-top: 10px;
     width: 82vw;
     height: 30px;
+    border-radius: 2px;
+}
+
+.btnEnviar{
+    background-color: black;
+    color: whitesmoke;
 }
 
 
+
+/*  Entrega de Diplomas*/
+
+
+
+
+
+
+
+/*Mejorar:
+- Tamaño letra MenuBienvenida
+- Tamaño letra ContenidoPrograma
+- Tamaño letra ModalidadRequisitos
+- Tamaño letra Inscripciones
+- Centrar formulario
 
 
 
