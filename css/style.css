@@ -41,7 +41,6 @@ header{
 nav{
     margin: 30px auto;
     padding: 10px;
-    width: 80%;
     display: flex;
     flex-direction: column;
 
@@ -54,7 +53,7 @@ nav a{
     text-decoration: none;
     color: whitesmoke;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     cursor: pointer;
