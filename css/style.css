@@ -39,7 +39,6 @@ header{
 }
 
 header nav{
-    margin: 30px auto;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -53,7 +52,7 @@ header nav a{
     text-decoration: none;
     color: whitesmoke;
     font-weight: 100;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     cursor: pointer;
@@ -131,12 +130,12 @@ main section p{
 }
 
 .contenidosPrograma h2{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .contenidosPrograma h3{
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .contenidosPrograma ul{
@@ -175,12 +174,12 @@ main section p{
 
 .modalidadRequisitos h2{
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: orange;
 }
 
 .modalidadRequisitos img{
-    width: 90%;
+    width: 80%;
 }
 
 .modalidadRequisitos ul{
@@ -192,7 +191,7 @@ main section p{
 
 .modalidadRequisitos li{
     margin: 15px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 
@@ -276,7 +275,6 @@ main section p{
 
 .divImgDiplomas , .divTextDiplomas{ 
     height: 50vh;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -284,8 +282,8 @@ main section p{
 }
 
 .divImgDiplomas img{
-    width: 95%;
-    height: 95%;
+    width: 70%;
+    height: 90%;
 }
 
 .divTextDiplomas h2{
