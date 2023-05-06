@@ -249,7 +249,7 @@ main section p{
 .divFormulario input, button{
     margin: 10px;
     width: 90%;
-    height: 30px;
+    height: 5vh;
     border-radius: 3px;
     box-sizing: border-box;
 }
@@ -333,10 +333,3 @@ footer a img{
     width: 32px;
     height: 32px;
 }
-
-/*Mejorar:
-- Tamaño letra MenuBienvenida
-- Tamaño letra ContenidoPrograma
-- Tamaño letra ModalidadRequisitos
-- Tamaño letra Inscripciones
-- Centrar formulario
