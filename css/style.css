@@ -203,8 +203,16 @@ main section p{
 }
 
 .inscripciones h3{
+    margin-bottom: 40px;
     font-weight: bold;
     font-size: 1.4rem;
+}
+
+.divInscripciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .inscripciones p{
@@ -219,8 +227,6 @@ main section p{
 
 .divFormulario{
     background-color: orange;
-    display: flex;
-    justify-content: space-around;
 }
 
 .divFormulario input{
@@ -261,6 +267,10 @@ main section p{
 .divImgDiplomas , .divTextDiplomas{ 
     height: 50vh;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .divImgDiplomas img{
@@ -269,12 +279,12 @@ main section p{
 }
 
 .divTextDiplomas h2{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
 .divTextDiplomas p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
