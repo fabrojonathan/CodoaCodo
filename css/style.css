@@ -59,7 +59,7 @@ header nav a{
     cursor: pointer;
 }
 
-header nav a .comprarTickets{
+.comprarTickets{
     color: orange;
 }
 
@@ -158,6 +158,8 @@ main section p{
 /*  Modalidad y Requisitos  */
 
 .modalidadRequisitos{
+    display: flex;
+    flex-direction: column;
     height: 200vh;
     background-color: rgb(17, 17, 26);
     text-align: center;
