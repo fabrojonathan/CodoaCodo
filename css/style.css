@@ -5,16 +5,19 @@ body{
     flex-direction: column;
 }
 
+main , header{
+    height: 50%;
+}
+
 /*  Menu Bienvenida */
 
 .inicio{
-    padding: 2vh 0;
     height: 100vh;
     background: linear-gradient(90deg, 
                                 rgba(0,0,0,0.5),
                                 rgba(0,0,0,0.5)),
                                 url('../assets/images/codigo_html.jpg');
-    /*background-image: url("../assets/images/codigo_html.jpg");*/
+    
     background-size: cover;
 
     display: flex;
@@ -22,7 +25,7 @@ body{
 }
 
 .icono img{
-    margin: 30px auto;
+    margin: 25px auto;
     width: 150px;
     height: 65px;
     display: flex;
@@ -42,10 +45,11 @@ nav{
 }
 
 nav a{
-    margin: 8px;
+    margin: 10px;
     text-decoration: none;
     color: whitesmoke;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     cursor: pointer;
@@ -57,8 +61,13 @@ nav a .comprarTickets{
 
 /*  Section Bienvenida  */
 
+main{
+    display: flex;
+    align-items: center;
+}
+
 main section{
-    margin: 30px auto;
+    margin: auto;
     width: 90%;
     color: whitesmoke;
     display: flex;
@@ -70,6 +79,7 @@ main section{
 
 main section h1{
     font-weight: 600;
+    font-size: 1.4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -79,6 +89,7 @@ main section h2{
     font: lighter;
     font-size: large;
     font-weight: 100;
+    font-size: 1.4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -89,6 +100,7 @@ main section .titleColor{
 main section p{
     text-align: center;
     font-weight: 100;
+    font-size: 1.1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -103,6 +115,7 @@ main section p{
     padding: 0 10px;
     max-width: 95vw;
     text-align: center;
+    align-items: center;
 
     background-color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -110,11 +123,15 @@ main section p{
 
 .contenidosPrograma h2 h3{
     font-weight: bold;
-    font-size:300;
+}
+
+.contenidosPrograma h2{
+    font-size: 1.4rem;
 }
 
 .contenidosPrograma h3{
     text-align: left;
+    font-size: 1.2rem;
 }
 
 .contenidosPrograma ul{
@@ -124,6 +141,11 @@ main section p{
 
 .contenidosPrograma ul li{
     max-width: 80vw;
+    font-size: 1rem;
+}
+
+.contenidosPrograma p{
+    font-size: 1rem;
 }
 
 
@@ -146,7 +168,7 @@ main section p{
 
 .modalidadRequisitos h2{
     font-weight: bold;
-    font-size:300;
+    font-size: 1.4rem;
     color: orange;
 }
 
@@ -163,6 +185,7 @@ main section p{
 
 .modalidadRequisitos li{
     margin: 15px;
+    font-size: 1.1rem;
 }
 
 
@@ -180,17 +203,17 @@ main section p{
 }
 
 .inscripciones h3{
-    margin-top: 100px;
     font-weight: bold;
-    font-size:500;
+    font-size: 1.4rem;
 }
 
 .inscripciones p{
     text-align: center;
+    font-size: 1.05rem;
 }
 
 .inscripciones div{
-    height: 45vh;
+    height: 50vh;
     padding: 10px;
 }
 
@@ -236,8 +259,8 @@ main section p{
 }
 
 .divImgDiplomas , .divTextDiplomas{ 
-    height: 50%;
-    padding: 5px;
+    height: 50vh;
+    padding: 10px;
 }
 
 .divImgDiplomas img{
@@ -275,6 +298,11 @@ footer{
     background-position: 50%;
 }
 
+footer img{
+    width: 150px;
+    height: 65px;
+}
+
 footer a img{
     margin: 5px 0;
     width: 32px;
@@ -287,17 +315,3 @@ footer a img{
 - Tamaño letra ModalidadRequisitos
 - Tamaño letra Inscripciones
 - Centrar formulario
-
-
-
-
-
-
-
-
-/* Footer */
-
-footer img{
-    width: 150px;
-    height: 65px;
-}
