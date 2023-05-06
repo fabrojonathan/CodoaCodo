@@ -59,7 +59,7 @@ header nav a{
 }
 
 .comprarTickets{
-    color: orange;
+    color: rgb(255, 211, 0);
 }
 
 /*  Section Bienvenida  */
@@ -103,7 +103,7 @@ main section h2{
 }
 
 main section .titleColor{
-    color: orange;
+    color: rgb(255, 211, 0);;
 }
 
 main section p{
@@ -165,7 +165,7 @@ main section p{
     display: flex;
     flex-direction: column;
     height: 200vh;
-    background-color: rgb(17, 17, 26);
+    background-color: rgb(29, 28, 26);
     text-align: center;
 }
 
@@ -180,7 +180,7 @@ main section p{
 .modalidadRequisitos h2{
     font-weight: bold;
     font-size: 1.3rem;
-    color: orange;
+    color: rgb(255, 211, 0);;
 }
 
 .modalidadRequisitos img{
@@ -237,7 +237,7 @@ main section p{
 }
 
 .divFormulario{
-    background-color: orange;
+    background-color: rgb(255, 211, 0);;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -254,6 +254,7 @@ main section p{
     margin: 1%;
     width: 90%;
     height: 6vh;
+    border: 1px solid;
     border-radius: 3px;
     box-sizing: border-box;
     font-size: 1.1rem;
@@ -262,6 +263,7 @@ main section p{
 .btnEnviar{
     background-color: black;
     color: whitesmoke;
+    border-color: black;
 }
 
 
@@ -559,5 +561,16 @@ footer a img{
             flex-direction: row;
             justify-content: space-between;
         }
+    }
+
+    /*  Animaciones */
+
+    button:hover{
+        width: 93%;
+        font-size: 130%;
+    }
+
+    a:hover{
+        font-size: 130%;
     }
 }
