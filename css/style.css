@@ -5,8 +5,13 @@ body{
     flex-direction: column;
 }
 
-main , header{
-    height: 50%;
+header{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /*  Menu Bienvenida */
@@ -39,7 +44,7 @@ nav{
     width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     backdrop-filter: blur(3px);
     border-radius: 15px;
 }
@@ -64,6 +69,7 @@ nav a .comprarTickets{
 main{
     display: flex;
     align-items: center;
+    height: 40%;
 }
 
 main section{
@@ -293,12 +299,14 @@ main section p{
 /*  Footer  */
 
 footer{
-    width: 100%;
+    width: 100vw;
     height: 50vh;
-    padding: 5px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: space-around;
 
     background: linear-gradient(90deg, 
                                 rgba(0,0,0,0.5),
