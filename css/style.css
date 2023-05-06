@@ -324,7 +324,7 @@ footer{
     background-position: center;
 }
 
-footer img{
+footer a img{
     margin-top: 20px;
     width: 150px;
     height: 65px;
@@ -335,7 +335,7 @@ footer a{
     flex-direction: column;
 }
 
-footer a img{
+footer nav a img{
     width: 32px;
     height: 32px;
 }
